@@ -524,6 +524,7 @@ class _ExpansionCheckBoxListState extends State<_ExpansionCheckBoxList> {
   @override
   Widget build(BuildContext context) {
     return ExpansionPanelList(
+      elevation: 0,
       expansionCallback: (index, value) {
         setState(() {
           isExpanded = !value;
